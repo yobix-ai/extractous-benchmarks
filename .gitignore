@@ -1,0 +1,17 @@
+.venv
+
+/dataset/*
+!/dataset/sec10-filings
+!/dataset/sec10-ground-truth
+
+__pycache__
+
+.idea/
+/*.egg-info/
+backup/
+
+/results/*
+!/results/.keep
+
+/*.cast
+/*.gif
