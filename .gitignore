@@ -1,6 +1,8 @@
 .venv
 
 /dataset/*
+!/dataset/pypdf-files
+!/dataset/pypdf-ground-truth
 !/dataset/sec10-filings
 !/dataset/sec10-ground-truth
 
@@ -10,8 +12,9 @@ __pycache__
 /*.egg-info/
 backup/
 
-/results/*
-!/results/.keep
+/results/*/extract-output/*
+/results/*/hyperfine-output/*
+/results/*/memray-profiles/*
 
 /*.cast
 /*.gif

@@ -20,6 +20,14 @@ INPUT_FILES=(
 # "2023_Q3_AAPL.pdf"  "2023_Q3_AMZN.pdf"  "2023_Q3_INTC.pdf" "2023_Q3_MSFT.pdf"  "2023_Q3_NVDA.pdf"
 )
 
+#DATASET_FILES_DIR="dataset/pypdf-files"
+#DATASET_GT_DIR="dataset/pypdf-ground-truth"
+#INPUT_FILES=(
+#  "2201.00214.pdf"  "2201.00151.pdf"  "1707.09725.pdf"  "2201.00021.pdf"  "2201.00037.pdf"
+#  "2201.00069.pdf"  "2201.00178.pdf"  "2201.00201.pdf"  "1602.06541.pdf"  "2201.00200.pdf"
+#  "2201.00022.pdf"  "2201.00029.pdf"  "1601.03642.pdf"  "GeoTopo.pdf"
+#)
+
 RESULTS_TAG="$(basename "$DATASET_FILES_DIR")_$(date +"%d_%m_%Y")"
 RESULTS_DIR="results/$RESULTS_TAG"
 RESULTS_EXTRACT_OUT_DIR="$RESULTS_DIR/extract-output"

@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 
 from unstructured.partition.auto import partition
+from unstructured.partition.utils.constants import PartitionStrategy
+
 from utils import parse_infile_outfile_args
 
 
 def run_unstructured(file_path, output_file_path):
     output_file = open(output_file_path, "w")
 
-    elements = partition(file_path)
+    elements = partition(file_path, strategy=PartitionStrategy.FAST)
 
     # Write output
     for element in elements:
