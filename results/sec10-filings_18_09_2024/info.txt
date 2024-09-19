@@ -1,0 +1,5 @@
+cpu_model: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz
+total_ram: 32 GB
+dataset: sec10-filings
+os_details: Linux ubuntu-xps15 6.8.0-40-generic #40~22.04.3-Ubuntu SMP PREEMPT_DYNAMIC Tue Jul 30 17:30:19 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+timestamp: Mi 18. Sep 20:14:54 UTC 2024
